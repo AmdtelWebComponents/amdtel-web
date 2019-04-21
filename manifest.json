@@ -1,7 +1,7 @@
 {
-  "name": "My App",
-  "short_name": "My App",
-  "description": "My App description",
+  "name": "Amdtel Web",
+  "short_name": "Amdtel Web",
+  "description": "Amdtel Web description",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#3f51b5",
