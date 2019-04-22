@@ -44,10 +44,15 @@ class AmdtelApp extends connect(store)(LitElement) {
         :host {
           display: block;
           max-width: 600px;
-          
+          --amdtel-green: darkgreen;
+          --app-secondary-color: #293237;
+          --app-dark-text-color: var(--app-secondary-color);
+          --app-light-text-color: white;
         }
 
         header {
+          backgroun-color: var(--amdtel-green);
+          color: var(--app-light-text-color);
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -55,7 +60,7 @@ class AmdtelApp extends connect(store)(LitElement) {
 
         .toolbar-list > a {
           display: inline-block;
-          color: black;
+          color: var(--app-light-text-color);
           text-decoration: none;
           padding: 0 8px;
         }
