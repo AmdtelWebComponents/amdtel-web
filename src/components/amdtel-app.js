@@ -43,7 +43,6 @@ class AmdtelApp extends connect(store)(LitElement) {
       css`
         :host {
           display: block;
-          max-width: 600px;
           --amdtel-green: darkgreen;
           --app-secondary-color: #293237;
           --app-dark-text-color: var(--app-secondary-color);
@@ -90,7 +89,6 @@ class AmdtelApp extends connect(store)(LitElement) {
         /* Wide layout */
         @media (min-width: 460px) {
           header {
-            flex-direction: row;
           }
         }
       `
