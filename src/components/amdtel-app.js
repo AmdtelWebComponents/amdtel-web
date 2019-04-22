@@ -51,7 +51,7 @@ class AmdtelApp extends connect(store)(LitElement) {
         }
 
         header {
-          backgroun-color: var(--amdtel-green);
+          background-color: var(--amdtel-green);
           color: var(--app-light-text-color);
           display: flex;
           flex-direction: column;
